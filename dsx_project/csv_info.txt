@@ -1,0 +1,10 @@
+Header not included in csv data 
+columns in csv corresponds to:
+(1) exonic region id,
+(2) sample id, 
+(3) number of mapped reads,
+(4)number of reads in the exonic region,
+(5) coverage in exonic region (number of reads in exonic region / read length), 
+(6)exonic region length, 
+(7) average per nucleotide coverage, 
+(8) RPKM
