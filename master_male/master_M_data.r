@@ -1,4 +1,4 @@
-setwd("~/Desktop/mmaccoun/dsx_project--master/master_files/master_male")
+setwd("~/Desktop/mmaccoun/dsx_project--master/master_files/master_male") #change to correct working directory 
 
 #import data from csv
 f1 <- read.csv('GSM1220614_coverage_on_fusions_2011-05-03_1_ATCACG.csv', header=FALSE) #berlin1
