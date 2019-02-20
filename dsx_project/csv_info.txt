@@ -8,3 +8,12 @@ columns in csv corresponds to:
 (6)exonic region length, 
 (7) average per nucleotide coverage, 
 (8) RPKM
+
+data separated into two directories : control and mutant 
+
+-control dir contains files M/F flies without dsx mutation
+  subdir male or female groups data files on sex 
+      subdir in male/female correspond to strain of Drosophila 
+-mutant dir contains files M/F with dsx mutation
+  subdir male or female groups data files on sex
+      subdir unknown holds data files since strain of Drosophila is not identified 
