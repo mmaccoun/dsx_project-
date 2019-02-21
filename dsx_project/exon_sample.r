@@ -1,4 +1,3 @@
-#file will make data frame with exon_ids found in ALL replicates 
 setwd("/Users/maccom/Desktop/dsx_project--master") #move all_M_data.csv and all_F_data.csv to directory to work in 
 
 male <- read.csv('all_M_data.csv')
@@ -34,6 +33,9 @@ u <- unique(exon_sample[,1]) #search for unique exons
 datu <- data.frame(u) #data frame with unique exons...to be removed
 
 d <- duplicated(exon_sample[,1])
-dupd <- data.frame(d, dat[ ,2], dat [,3]) #bool value 1, true means exon duplicated in other samples...to be analyzed later   
-names(dupd) <- c('exon_id_dups', 'sample_id', 'logRPKM') 
+dupd <- data.frame(d, exon_sample[,1], dat[ ,2], dat [,3]) #bool value 1, true means exon duplicated in other samples...to be analyzed later   
+names(dupd) <- c('exon_id_dups', 'sample_id', 'logRPKM')  
+
+
+
 
