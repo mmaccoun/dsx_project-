@@ -1,6 +1,6 @@
 # dsx_project-
-control same data viewable at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50515, fruitless strain exlcuded 
-dsx mutant data viewable at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1220611
+control same data viewable at GEO reference # GSE50515, fruitless strain exlcuded 
+dsx mutant data viewable at GEO reference # GSE50515
 
 **DATA FILES WERE NOT ABLE TO UPLOAD, MUST RUN R FILES TO CREATE CSV***
 
